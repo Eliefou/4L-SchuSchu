@@ -6,7 +6,9 @@ html {
 body{
     margin: 0 auto;
     /* background-color: gray; */
-    background: url('../Picture/DSC_5798.png');
+    /*background: url('../Picture/DSC_5798.png'); */
+    background: url('https://github.com/Eliefou/4L-SchuSchu/blob/main/Picture/DSC_5798.png');
+    /* src: url('https://github.com/Eliefou/Protocol_0/blob/main/Charlotte.otf')/ */
     background-size: cover;
     height: 50vh;
     width: 750px;
@@ -32,6 +34,7 @@ header.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 section.top-page 
