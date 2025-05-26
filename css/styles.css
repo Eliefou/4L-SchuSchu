@@ -6,7 +6,7 @@ html {
 body{
     margin: 0 auto;
     /* background-color: gray; */
-    background: url('./Picture/DSC_5798.png');
+    background: url('../Picture/DSC_5798.png');
     background-size: cover;
     height: 50vh;
     width: 750px;
