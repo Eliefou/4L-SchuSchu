@@ -34,12 +34,13 @@ header.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 50%;
 }
 
 section.top-page 
 {
-    background: url('../Picture/4L_trophy2.jpg');
+    /* background: url('../Picture/4L_trophy2.jpg'); */
+    background: url('https://github.com/Eliefou/4L-SchuSchu/blob/main/Picture/4L_trophy2.jpg');
     background-size: cover;
     /* height: 80vh; */
     height: 50vh;
