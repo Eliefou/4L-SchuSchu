@@ -6,9 +6,7 @@ html {
 body{
     margin: 0 auto;
     /* background-color: gray; */
-    /*background: url('../Picture/DSC_5798.png'); */
-    background: url('https://github.com/Eliefou/4L-SchuSchu/blob/main/Picture/DSC_5798.png');
-    /* src: url('https://github.com/Eliefou/Protocol_0/blob/main/Charlotte.otf')/ */
+    background: url('../Picture/DSC_5798.png');
     background-size: cover;
     height: 50vh;
     width: 750px;
@@ -39,8 +37,7 @@ header.header {
 
 section.top-page 
 {
-    /* background: url('../Picture/4L_trophy2.jpg'); */
-    background: url('https://github.com/Eliefou/4L-SchuSchu/blob/main/Picture/4L_trophy2.jpg');
+    background: url('../Picture/4L_trophy2.jpg');
     background-size: cover;
     /* height: 80vh; */
     height: 50vh;
