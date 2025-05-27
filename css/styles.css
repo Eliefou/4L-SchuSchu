@@ -180,6 +180,7 @@ footer p.copyright {
     justify-content: center;
     align-items: center;
     height: 20vh;
+    box-sizing: border-box;
 }
 
 .countdown {
@@ -191,7 +192,7 @@ footer p.copyright {
     border-radius: 20px;
     border: 3px solid #f00;
     padding: 20px;
-    width: 100%;
+    width: 85%;
     max-width: 100%;
     box-sizing: border-box;
     overflow: hidden;
@@ -200,7 +201,7 @@ footer p.copyright {
 
 .countdown .line {
     white-space: nowrap;           /* ✅ Garde la ligne sur une seule ligne */
-    overflow: hidden;              /* ❗ Empêche de dépasser */
+    overflow-x: auto;              /* ❗ Empêche de dépasser */
     text-overflow: ellipsis;       /* Affiche "..." si trop long (optionnel) */
     font-size: clamp(14px, 5vw, 24px); /* Taille responsive */
 }
