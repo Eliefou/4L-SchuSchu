@@ -49,7 +49,8 @@ section.top-page {
 /* Page de bienvenue */
 .big-title {
     font-weight: 100;
-    color: red;
+    /* color: red; */
+    color: blue;
     font-size: clamp(28px, 5vw, 50px);
     text-align: left;
 }
@@ -99,12 +100,26 @@ h1 {
 
 .h2-title {
     text-align: left;
+    margin-left: 2%;
+    color : black;
 }
 
-.self-introduction {
+p {
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+    margin-left: 2%;
+    margin-right: 2%;
+     color : black;
+}
+
+.Introduction {
     display: flex;
-    margin-bottom: 4%;
+    /* margin-bottom: 4%; */
     flex-wrap: wrap;
+
+    /* line-height: 24px; fixe à 24 pixels */
+    background-color: burlywood;
+    
 }
 
 .profil-picture {
@@ -147,9 +162,9 @@ h4 {
 }
 
 /* Pied de page */
-.ennding-page {
-    margin-top: 0.5%;
-}
+/* .ennding-page {
+    /margin-top: 0.5%; 
+} */
 
 footer {
     display: flex;
@@ -172,7 +187,7 @@ footer p.copyright {
 }
 
 .Compteur {
-    margin-top: 0.5%;
+    /* margin-top: 0.5%; */
     background-color: burlywood;
     color: white;
     font-family: 'Arial', sans-serif;
