@@ -199,23 +199,6 @@ footer p.copyright {
     text-align: center;
 }
 
-.countdown .line {
-    white-space: nowrap;           /* ✅ Garde la ligne sur une seule ligne */
-    overflow: hidden;              /* ❗ Empêche de dépasser */
-    text-overflow: ellipsis;       /* Affiche "..." si trop long (optionnel) */
-    font-size: clamp(14px, 5vw, 24px); /* Taille responsive */
-}
-
-/* .countdown .line {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem; 
-    font-size: clamp(16px, 5vw, 28px);
-    white-space: nowrap;
-} */
 
 .countdown .label {
     font-size: 1rem;
