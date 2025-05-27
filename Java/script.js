@@ -55,13 +55,23 @@ window.addEventListener("DOMContentLoaded", () => {
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    countdownEl.innerHTML = `
-      <span>${days}</span>j :
-      <span>${hours.toString().padStart(2, '0')}</span>h :
-      <span>${minutes.toString().padStart(2, '0')}</span>m :
-      <span>${seconds.toString().padStart(2, '0')}</span>s
-      <div class="label">avant le départ</div>
-    `;
+countdownEl.innerHTML = `
+  <div class="line">
+    <span>${days}</span>j :
+    <span>${hours.toString().padStart(2, '0')}</span>h :
+    <span>${minutes.toString().padStart(2, '0')}</span>m :
+    <span>${seconds.toString().padStart(2, '0')}</span>s
+  </div>
+  <div class="label">avant le départ</div>
+`;
+
+    // countdownEl.innerHTML = `
+    //   <span>${days}</span>j :
+    //   <span>${hours.toString().padStart(2, '0')}</span>h :
+    //   <span>${minutes.toString().padStart(2, '0')}</span>m :
+    //   <span>${seconds.toString().padStart(2, '0')}</span>s
+    //   <div class="label">avant le départ</div>
+    // `;
   }
 
   const timer = setInterval(updateCountdown, 1000);
