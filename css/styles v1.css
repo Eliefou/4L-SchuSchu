@@ -1,0 +1,248 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+    /* background-color: gray; */
+    background: url('../Picture/DSC_5798.png');
+    background-size: cover;
+    height: 50vh;
+    width: 750px;
+    box-sizing: 5px;
+}
+
+/* Media query pour les petits écrans */
+@media (max-width: 750px) {
+    body {
+        width: 95%;
+    }
+}
+
+.body-backgrood{
+    background-color: white;
+}
+
+header.header img{
+    width: 12%;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section.top-page 
+{
+    background: url('../Picture/4L_trophy.jpg');
+    background-size: cover;
+    /* height: 80vh; */
+    height: 50vh;
+    /* width: 100%; */
+    padding: 5%;
+}
+
+
+
+/* page de bienvenue */
+
+.big-title {
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: 100;
+    color: red;
+    font-size: 50px;
+    /* padding: 25px 50px; */
+    text-align: left;
+    /* font-weight: 100; */
+}
+
+
+@media (max-width: 750px) {
+    .big-title {
+        font-size: 35px;
+    }
+    .footer {
+        font-size: 60%;
+    }
+}
+
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 5%;
+}
+
+nav.nav li {
+    color: white;
+}
+
+nav a{
+    position: relative;
+    font-size:1.1em;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.header-list {
+    font-size: 25px;
+}
+
+
+nav a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width:100%;
+    height: 4px;
+    background: black;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.nav :hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+
+
+/* Sectionh h2 */
+
+.h2-title {
+    text-align: left;
+}
+
+.self-introduction {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    margin-bottom: 4%;
+}
+
+.profil-picture {
+    /* width: 50%; */
+    width: 200px;
+    height: 100%;
+    size: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+    object-fit: cover;
+}
+
+.introduction-text {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -1%;
+    position: relative;
+    text-align: justify;
+    color:black;
+    max-height: 100%;
+    max-width: 100%;
+    /* font-size: 20px; */
+}
+
+/* Sectionh h3 */
+
+.passion-introduction {
+    display: flex;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    align-items: center;
+}
+
+.activity-picture {
+    /* width: 50%; */
+    width: 200px;
+    height: 100%;
+    size: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+    object-fit: cover;  
+}
+
+
+.passion-text {
+    margin-left: 5%;
+    margin-top: -1%;
+    position: relative;
+    text-align: justify;
+    color:black;
+    max-height: 100%;
+    max-width: 100%;
+    /* font-size: 20px; */
+}
+
+h4{
+    margin-left: 5%;
+}
+
+/* Pied de page */
+
+.ennding-page {
+    margin-top: 0.5%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 5% 5%; */
+    font-size: 80%;
+    background: rgb(188, 184, 184);
+    background-size: 100%;
+}
+
+footer a.cgu{
+    text-decoration: none;
+    color: black;
+    margin-right: 2%;
+}
+
+footer p.copyright{
+    margin-left: 2%;
+}
+
+.Compteur {
+    margin-top: 0.5%;
+    background-color: burlywood;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.countdown {
+    text-align: center;
+    font-size: 2rem;
+    background: #222;
+    padding: 30px 50px;
+    border-radius: 20px;
+    border: 3px solid #f00;
+}
+
+.countdown span {
+    display: inline-block;
+    min-width: 60px;
+}
+
+.label {
+    font-size: 1rem;
+    color: #888;
+}
