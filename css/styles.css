@@ -64,8 +64,11 @@ section.top-page
     .big-title {
         font-size: 35px;
     }
+    .footer {
+        font-size: 60%;
+    }
 }
-/* Menu de navigation */
+
 
 nav.nav {
     display: flex;
