@@ -9,7 +9,7 @@ body {
     background-size: cover;
     height: 50vh;
     width: 100%;
-    max-width: 1200px;
+    max-width: 750px;
     padding: 0 1rem;
     box-sizing: border-box;
 }
@@ -39,7 +39,7 @@ section.top-page {
     background: url('../Picture/4L_trophy.jpg');
     background-size: cover;
     /* height: 50vh; */
-    height: 80vh;
+    height: 50vh;
     padding: 5%;
     /* width: 100%;
     background-size: contain;
