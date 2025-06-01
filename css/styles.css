@@ -46,6 +46,18 @@ section.top-page {
     background-repeat: no-repeat; */
 }
 
+section.top-page-Construction {
+    /* background: url('../Picture/chantier.jpg'); */
+    background-color: burlywood;
+    background-size: cover;
+    /* height: 50vh; */
+    /* height: 50vh; */
+    padding: 1%;
+    /* width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
 /* Page de bienvenue */
 .big-title {
     font-weight: 100;
@@ -258,7 +270,7 @@ footer p.copyright {
 /* Drapeau */
 .flag {
   height: 30px;
-  width: auto;
+  width: 0.5%;
 }
 
 /* Liens */
@@ -266,7 +278,7 @@ header.header a {
   text-decoration: none;
   color: black;
   font-weight: 500;
-  font-size: clamp(14px, 2vw, 18px);
+  font-size: clamp(10px, 1vw, 12px);
   white-space: nowrap; /* Empêche les mots d’aller à la ligne */
 }
 
@@ -309,11 +321,42 @@ header.header a {
         height: 32vh;
     }
     header.header a {
-        font-size: clamp(10px, 2vw, 18px);
+        font-size: clamp(10px, 2vw, 10px);
     }
 
     .flag {
-        height: 25px;
-        width: auto;
+        height: 20px;
+        /* width: auto; */
     }
 }
+
+
+.Building {
+    background: url('../Picture/chantier.jpg');
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    font-size: 90px;
+
+      display: flex;
+  justify-content: center;   /* Centrage horizontal */
+  align-items: center;       /* Centrage vertical */
+  /* height: 200px;              */
+  /* Hauteur nécessaire */
+    /* display: flex;
+    width: 100%;
+    background-size: cover;
+    flex-wrap: nowrap;
+     */
+}
+
+.p-construction {
+   color : orangered; 
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+
