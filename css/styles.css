@@ -282,6 +282,7 @@ header.header a {
   white-space: nowrap; /* Empêche les mots d’aller à la ligne */
 }
 
+
 @media (max-width: 600px) {
     header.header {
         /* /flex-direction: column; */
@@ -319,6 +320,7 @@ header.header a {
     }
     section.top-page {
         height: 32vh;
+        padding: 2%;
     }
     header.header a {
         font-size: clamp(8px, 2vw, 8px);
