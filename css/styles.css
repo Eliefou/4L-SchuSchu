@@ -321,7 +321,7 @@ header.header a {
         height: 32vh;
     }
     header.header a {
-        font-size: clamp(10px, 2vw, 10px);
+        font-size: clamp(8px, 2vw, 8px);
     }
 
     .flag {
