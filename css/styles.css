@@ -362,3 +362,22 @@ header.header a {
 }
 
 
+.Partenaires {
+    /* margin-bottom: 4%; */
+    flex-wrap: wrap;
+    margin-top: 0;
+    /* line-height: 24px; fixe à 24 pixels */
+    /*background-color: burlywood;*/
+    background: url('../Picture/brick_wall.png');
+    /*background-size: cover;*/
+    /*background-repeat: repeat; */  /*  Répète l'image */
+    /*background-size: auto; */  /* ajuste la taille des briques */
+    
+}
+
+.h3-title {
+    text-align: center;
+    margin-top: 0%;
+    color : black;
+}
+
