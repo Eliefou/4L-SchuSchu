@@ -48,7 +48,12 @@
     top: 0;
 }
 .slide-img{
-    width: 50%;
+    /* width: 50%; */
+    width: 200px;   /* largeur fixe */
+    height: auto;   /* conserve les proportions */
+
+    height: 100px;
+    width: auto;  
     /*height: 300px;*/
     object-fit: cover;
     object-position: center;
