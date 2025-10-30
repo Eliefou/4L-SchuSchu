@@ -184,7 +184,7 @@ Exemple un peu plus doux :
 
 @media (max-width: 600px) {
   .row-sponsors {
-    flex-wrap: wrap; /* On autorise à nouveau les retours sur mobile */
+    flex-wrap: nowrap; /* On autorise à nouveau les retours sur mobile */
   }
   .row-sponsors .sponsor-img {
     flex: 1 1 45%;
