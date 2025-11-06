@@ -1,0 +1,235 @@
+
+/****************************
+ * SECTION ÉQUIPAGE
+ ****************************/
+
+.Pilote {
+    /* margin-top: 0.5%; */
+    background-color: burlywood;
+    padding: 2px;
+    /* color: black;
+    display: flex;
+    height: 20vh;
+    box-sizing: border-box; */
+}
+
+
+
+.Pilote-Part {
+    display: flex;
+    align-items: center;       /* Centre verticalement */
+    gap: 10px;                 /* Espace entre image et texte */
+}
+
+
+.Pilote-img{
+    /* justify-content: left;
+    align-items: left;
+    width: 200px; */
+    width: 35%;                /* Image prend 35% du cadre */
+    max-width: 250px;          /* Taille max */
+    border-radius: 10px;
+    padding-left: 20px;
+    object-fit: cover;
+}
+
+
+.Pilote-txt {
+    width: 65%;
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.Copilote {
+    /* margin-top: 0.5%; */
+    background-color: burlywood;
+    padding: 2px;
+    /* color: black;
+    display: flex;
+    height: 20vh;
+    box-sizing: border-box; */
+}
+
+
+
+.Copilote-Part {
+    display: flex;
+    align-items: center;       /* Centre verticalement */
+    gap: 10px;                 /* Espace entre image et texte */
+}
+
+
+.Copilote-img{
+    width: 35%;                /* Image prend 35% du cadre */
+    max-width: 250px;          /* Taille max */
+    border-radius: 10px;
+    padding-right: 20px;
+    object-fit: cover;
+}
+
+
+.Copilote-txt {
+    width: 65%;
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.Asso {
+    /* margin-top: 0.5%; */
+    background-color: burlywood;
+    padding: 2px;
+    /* color: black;
+    display: flex;
+    height: 20vh;
+    box-sizing: border-box; */
+}
+
+
+
+.Asso-Part {
+    display: flex;
+    align-items: center;       /* Centre verticalement */
+    gap: 10px;                 /* Espace entre image et texte */
+}
+
+
+.Asso-img{
+    /* justify-content: left;
+    align-items: left;
+    width: 200px; */
+    width: 35%;                /* Image prend 35% du cadre */
+    max-width: 250px;          /* Taille max */
+    border-radius: 10px;
+    padding-left: 20px;
+    object-fit: cover;
+}
+
+
+.Asso-txt {
+    width: 65%;
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 20px;
+}
+
+
+.SchuSchuMobile {
+    /* margin-top: 0.5%; */
+    background-color: burlywood;
+    padding: 2px;
+    /* color: black;
+    display: flex;
+    height: 20vh;
+    box-sizing: border-box; */
+    padding-bottom: 40px;
+}
+
+
+
+.SchuSchuMobile-Part {
+    display: flex;
+    align-items: center;       /* Centre verticalement */
+    gap: 10px;                 /* Espace entre image et texte */
+}
+.SchuSchuMobile-txt {
+    width: 65%;
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 20px;
+    /* padding-bottom: 40px; */
+}
+
+.SchuSchuMobile-img{
+    width: 35%;                /* Image prend 35% du cadre */
+    max-width: 250px;          /* Taille max */
+    border-radius: 20px;
+    /* padding-right: 20px; */
+    margin-right: 20px;
+     /* ✅ Ne casse pas l'arrondi */
+    object-fit: cover;
+}
+
+
+
+/****************************
+ * RESPONSIVE DESIGN
+ ****************************/
+
+@media (max-width: 600px) {
+
+    .Pilote-Part,
+    .Copilote-Part,
+    .Asso-Part,
+    .SchuSchuMobile-Part {
+        flex-direction: column;       /* Image au-dessus du texte */
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .Pilote-img,
+    .Copilote-img,
+    .Asso-img,
+    .SchuSchuMobile-img {
+        width: 80%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .Pilote-txt,
+    .Copilote-txt,
+    .Asso-txt,
+    .SchuSchuMobile-txt {
+        width: 90%;
+        font-size: clamp(14px, 3vw, 18px);
+        padding: 0;
+    }
+
+    .h2-title {
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
+
+
+.Pilote,
+.Asso {
+    background-color: burlywood;
+}
+
+.Copilote,
+.SchuSchuMobile {
+    background-color: #d2b48c; /* une teinte légèrement différente */
+}
+
+hr {
+    width: 90%;
+    height: 3px;
+    background-color: #fff;
+    border: none;
+    opacity: 0.6;
+    border-radius: 5px;
+    margin: 30px auto;
+}
+
+/* --- Séparateur animé entre les sections --- */
+/* hr {
+  width: 90%;
+  height: 4px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 30px auto;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease-out;
+} */
+
+/* Classe appliquée automatiquement quand visible */
+/* hr.visible {
+  opacity: 1;
+  transform: translateY(0);
+} */
